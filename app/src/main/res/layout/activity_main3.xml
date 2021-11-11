@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="#F20"
+        android:text="Top Content Here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+
+    android:background="#00BCD4"
+    android:text="Botton Content Here"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="Second"
+        android:background="#F22"
+        android:id="@+id/txt1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginRight="30dp"
+        android:layout_alignBaseline="@id/txt1"
+        android:layout_toLeftOf="@id/txt1"
+        android:padding="10dp"
+        android:background="#3F51B5"
+        android:textSize="20sp"
+        android:text="First"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_alignBaseline="@id/txt1"
+        android:layout_marginLeft="30dp"
+
+        android:layout_toRightOf="@id/txt1"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:background="#CDDC39"
+        android:text="Three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

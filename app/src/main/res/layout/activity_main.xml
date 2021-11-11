@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center"
+
+    tools:context=".MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <TextView
+
+
+
+        android:background="#F20"
+        android:id="@+id/Red"
+
+        android:textSize="30sp"
+        android:text="Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+        android:background="#4CAF50"
+        android:layout_below="@id/Red"
+
+        android:id="@+id/Green"
+
+
+        android:textSize="30sp"
+        android:text="Green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+        android:background="#2196F3"
+        android:layout_below="@id/Green"
+
+        android:id="@+id/Blue"
+
+
+        android:textSize="30sp"
+        android:text="Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+        android:background="#FF9800"
+        android:layout_below="@id/Blue"
+
+        android:id="@+id/Orange"
+
+
+        android:textSize="30sp"
+        android:text="Orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+        android:background="#BAC5BB"
+        android:layout_below="@id/Orange"
+
+        android:id="@+id/Gray"
+
+
+        android:textSize="30sp"
+        android:text="Gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+        android:background="#9C27B0"
+        android:layout_below="@id/Gray"
+
+        android:id="@+id/Pink"
+
+
+        android:textSize="30sp"
+        android:text="Pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
